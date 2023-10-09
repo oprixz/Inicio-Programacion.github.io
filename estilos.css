@@ -15,11 +15,19 @@ section p{
 #lista{
     display: inline-flex;
     list-style: none;
+    font-size: 40px;
+    
 }
-  li{
-    padding: 10px;
-  }  
-
+  
 nav{
+    background-image: url("https://images.pexels.com/photos/2101187/pexels-photo-2101187.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     text-align: center;
+    padding: 20px;
+    background-size: cover;
+}
+aside{
+    border: solid;
+    box-sizing: border-box;
+    display: inline-table;
+    justify-content: right;
 }
